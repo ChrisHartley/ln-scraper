@@ -2,103 +2,151 @@
 SimpleDB:
   Domain: multifamily-properties
 LoopNet:
-  pageguid: e6ed0477-2ae9-4197-ad37-a8df4c799cbb
+  pageguid: 5e5a9e35-c426-48f8-8448-2eb8a8140262
   criteria:
-    LNPropertyTypes: 8
-    PropertyTypes: 0
-    HospitalitySubtypes: 0
-    IndustrialSubtypes: 0
-    LandTypes: 0
-    OfficeSubtypes: 0
-    GeneralRetailSubtypes: 0
-    FlexSubtypes: 0
-    SportsAndEntertainmentSubtypes: 0
-    SpecialtySubtypes: 0
-    MultifamilySubtypes: 0
-    HealthcareSubtypes: 0
-    ShoppingCenterTypes: 0
+    AgentFirstName: 
+    AgentLastName: 
     ApartmentStyleTypes: 0
-    Country: US
-    State: TX
-    Market: ''
-    MSA: 
-    County: ''
-    City: ''
-    PostalCode: ''
-    GeographyFilters:
-    - GeographyId: '44'
-      Code: TX
-      Display: Texas
-      GeographyType: 1
-      BoundingBox:
-      - -106.645783
-      - 25.83802
-      - -93.5087429
-      - 36.503441
-      Centroid:
-      - -100.077263
-      - 31.17073
-    PageLocationLabel: Tx
-    IncludeProximityCities: false
-    Distance: ''
-    Radius: 
-    CoordinateBounds: 
-    Polygon: 
-    HasValidCoordinates: 
+    Auction: true
+    AuctionAssetTypeNotes: 
+    AuctionAssetTypeProperties: 
+    AuctionFinanceTypeBrokerCoOp: 
+    AuctionFinanceTypeFinancing: 
+    AuctionIds: 
+    AvailableForLease: true
+    BoundsChangedViaMapInteraction: false
     BuildingClass: 0
-    BuildingSizeUom: SquareFeet
-    LotSizeUom: Acres
-    SubCategoryList: []
-    Editor: ProfileBackLink
-    PreserveAddressForRadiusSavedSearch: false
-    ListingSearchType: 1
-    OnMarketDateRange: 
-    Keywords: 
-    IsForSale: true
-    PriceRangeMin: 
-    PriceRangeMax: '1,000,000'
-    BuildingSizeRangeMin: 
+    BuildingParkFilter: 0
     BuildingSizeRangeMax: 
-    PriceRangeRateType: Total
-    LotSizeRangeMin: 
-    LotSizeRangeMax: 
-    UnitCountRangeMin: '10'
-    UnitCountRangeMax: 
-    CapRateRangeMin: 
-    CapRateRangeMax: 
-    YearBuiltRangeMin: 
-    YearBuiltRangeMax: 
-    NetLeased: false
-    InContract: false
-    Distressed: false
-    Auction: false
-    Single: false
-    Multiple: false
+    BuildingSizeRangeMin: 
+    BuildingSizeUom: SquareFeet
     BusinessForSale: true
-    VacantOwner: true
-    Investment: true
+    CapRateRangeMax: 
+    CapRateRangeMin: 
+    City: Indianapolis
     CondosFilter: 0
-    PortfoliosFilter: 0
-    ShoppingCenterFilter: 0
-    IsForLease: false
-    LeaseRateRangeMin: 
-    LeaseRateRangeMax: 
-    SpaceAvailableRangeMin: 
-    SpaceAvailableRangeMax: 
-    LeaseRateTerm: 
-    SpaceAvailableUom: SquareFeet
-    LeaseRatePerSizeUom: SquareFeet
-    SubLease: false
-    RegionalMarket: 
-    SubMarket: ''
-    ListingId: 
+    Country: US
+    Currency: 
+    DateEnteredRangeMax: 
+    DateEnteredRangeMin: 
+    DateEnteredType: RT
+    DateFormat: MM/dd/yyyy
     DateIndicator: 0
-    DateEnteredRangeMin: ''
-    DateEnteredRangeMax: ''
-    ViewMode: None
-    ResultLimit: 500
-    PageNumber: 1
-    PageSize: 20
-    Timeout: 0
+    Distance: 0
+    Distressed: false
+    Editor: Universal
+    FlexSubtypes: 0
+    ForceRemoveBoundary: false
+    GeneralRetailSubtypes: 0
+    GeographyFilters: 
+    - BoundingBox: 
+      - -86.3750002
+      - 39.600893
+      - -85.9331999
+      - 39.95669
+      Centroid: 
+      - -86.15410005
+      - 39.7787915
+      Code:  IN
+      Display: Indianapolis
+      GeographyId: 16284
+      GeographyType: 2
+      MatchType: 3
+      Radius: 0
+      RadiusLengthMeasure: 0
+      SubmarketPropertyType: 0
+      TypeaheadDisplay: Indianapolis IN USA
+    HasMultipleLocations: false
+    HasValidCoordinates: 
+    HealthcareSubtypes: 0
+    HospitalitySubtypes: 0
+    IncludeProximityCities: false
+    InContract: true
+    IndustrialSubtypes: 0
+    InOpportunityZone: 
+    Investment: true
+    InvestmentTypeCore: 
+    InvestmentTypeOpportunistic: 
+    InvestmentTypeOpportunityZone: 
+    InvestmentTypeTripleNet: 
+    InvestmentTypeValueAdd: 
+    IsAuctionsOnly: false
+    IsDefaultLeaseRate: true
+    IsForLease: false
+    IsForSale: true
+    IsTenXAuctions: false
+    IsUserFromUS: true
+    Keywords: 
+    LandTypes: 0
+    LeaseRateCurrency: USD
+    LeaseRatePerSizeUom: SquareFeet
+    LeaseRateRangeMax: 
+    LeaseRateRangeMin: 
+    LeaseRateTerm: y
+    LeaseRateUomTerm: SquareFeetYearForUI
+    ListingId: 
+    ListingIdPinClick: 
+    ListingSearchType: 1
+    ListingType: 2
+    LNPropertyTypes: 512
+    LoopLinkForLeaseDefaultSorting: []
+    LoopLinkForSaleAndLeaseDefaultSorting: []
+    LoopLinkForSaleDefaultSorting: []
+    LotSizeRangeMax: 
+    LotSizeRangeMin: 
+    LotSizeUom: Acres
+    Market: 
+    MinimumDate: 01/01/0001
+    MoveInDateEnteredRangeMax: 
+    MoveInDateEnteredRangeMin: 
+    MoveInDateEnteredType: 
+    MoveInDateIndicator: 0
+    MSA: 
+    MultifamilySubtypes: 0
+    Multiple: false
+    NetLeased: false
+    OfficeSubtypes: 0
+    OnMarketDateRange: 
     Origin: 1
-    StateKey: f2b595b051f7feafd2d11af39bb935e5
+    PageLocationLabel: Indianapolis IN
+    PageNumber: 1
+    PageSize: 500
+    PendingForLease: false
+    PercentMajorityCountryCode: US
+    Polygon: 
+    PortfoliosFilter: 0
+    PreserveAddressForRadiusSavedSearch: false
+    PriceRangeCurrency: USD
+    PriceRangeMax: 
+    PriceRangeMin: 
+    PriceRangeRateType: Total
+    PropertyTypes: 0
+    Radius: 
+    Region: 
+    RegionalMarket: 
+    ResultLimit: 500
+    ShoppingCenterFilter: 0
+    ShoppingCenterTypes: 0
+    Single: false
+    SpaceAvailableRangeMax: 
+    SpaceAvailableRangeMin: 
+    SpaceAvailableUom: SquareFeet
+    SpaceLeaseTypes: 0
+    SpecialtySubtypes: 0
+    SportsAndEntertainmentSubtypes: 0
+    State: IN
+    StateKey: af8ce762266edb4fe2f2fb0ec1df374b
+    SubCategoryList: []
+    SubLease: false
+    SubMarket: 
+    TermLengthRangeMax: 
+    TermLengthRangeMin: 
+    Timeout: 0
+    TypeaheadLocationLabel: Indianapolis IN USA
+    UnitCountRangeMax: 
+    UnitCountRangeMin: 
+    UseClassTypes: 0
+    VacantOwner: true
+    ViewMode: None
+    YearBuiltRangeMax: 
+    YearBuiltRangeMin: 

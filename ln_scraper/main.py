@@ -25,15 +25,16 @@ def run():
     settings = sp.get_settings(settings_file)
     simple_db_domain = settings['SimpleDB']['Domain']
 
-    # Check SimpleDB if setup, if not, setup.
-    client = boto3.client('sdb')
-    domains = client.list_domains()
-    if domains.get(simple_db_domain) is None:
-        client.create_domain(DomainName=simple_db_domain)
+    # # Check SimpleDB if setup, if not, setup.
+    # client = boto3.client('sdb')
+    # domains = client.list_domains()
+    # if domains.get(simple_db_domain) is None:
+    #     client.create_domain(DomainName=simple_db_domain)
 
     # Scrape the data 
     scraper = Scraper(settings)
     scraper.run_scrape_job()
+#    scraper.run_pagination_test()
 
 
 if __name__ == "__main__":

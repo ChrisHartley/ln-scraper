@@ -1,4 +1,4 @@
-import ruamel.yaml as yaml
+from ruamel.yaml import YAML
 
 class SettingsParser:
     def __init__(self):
@@ -7,11 +7,12 @@ class SettingsParser:
     def get_settings(self, settings_file):
         with open(settings_file, 'r') as stream:
             try:
-                data = yaml.safe_load(stream)
+                yaml = YAML(typ='safe')
+                data = yaml.load(stream)
                 # data = data['LoopNet']
                 # settings = {}
                 # settings['criteria'] = data['criteria']
                 # settings['pageguid'] = data['pageguid']
                 return data
-            except yaml.YAMLError as exc:
+            except Exception as exc:
                 print(exc)
